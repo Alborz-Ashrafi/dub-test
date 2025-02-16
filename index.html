@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>وبسایت جامع دوبلور سنجی ایران</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>وبسایت جامع دوبلور سنجی ایران 🎤</h1>
+        <p>اگه می‌خوای بدونی دوبلوری یا نه، این تست رو بده! 😆</p>
+
+        <form id="quiz-form">
+            <label>🎙️ وقتی یه فیلم دوبله می‌بینی، چیکار می‌کنی؟</label>
+            <select>
+                <option>سعی می‌کنم حدس بزنم صدا مال کیه</option>
+                <option>صدای خودم رو ضبط می‌کنم و تست می‌زنم</option>
+                <option>با صدای دوبلورها حرف می‌زنم</option>
+                <option>می‌خوابم و به آینده فکر می‌کنم</option>
+            </select>
+
+            <label>🎭 اگه بخوای یه کاراکتر رو دوبله کنی، چی رو انتخاب می‌کنی؟</label>
+            <select>
+                <option>شخصیت خفن و مرموز</option>
+                <option>پیرمرد دانا</option>
+                <option>بچه پررو و بازیگوش</option>
+                <option>کفشدوزک شماره ۳ در صحنه‌ی ۵</option>
+            </select>
+
+            <button type="button" onclick="showResult()">ارسال</button>
+        </form>
+
+        <div id="result"></div>
+
+        <button id="retry" style="display: none;" onclick="showResult()">🤡 دوباره تست بده</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

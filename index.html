@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>وبسایت جامع دوبلور سنجی ایران</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <div class="container">
-        <h1>وبسایت جامع دوبلور سنجی ایران 🎤</h1>
-        <p>اگه می‌خوای بدونی دوبلوری یا نه، این تست رو بده! 😆</p>
+        <h1>🎤 وبسایت جامع <span>دوبلور سنجی</span> ایران</h1>
+        <p>اگه می‌خوای بدونی دوبلوری یا نه، این تست رو بده و ننم جانی کن برو دیگه! </p>
 
         <form id="quiz-form">
-            <label>🎙️ وقتی یه فیلم دوبله می‌بینی، چیکار می‌کنی؟</label>
+            <label> وقتی یه فیلم دوبله می‌بینی، چیکار می‌کنی؟</label>
             <select>
                 <option>سعی می‌کنم حدس بزنم صدا مال کیه</option>
                 <option>صدای خودم رو ضبط می‌کنم و تست می‌زنم</option>
@@ -23,18 +24,18 @@
 
             <label>🎭 اگه بخوای یه کاراکتر رو دوبله کنی، چی رو انتخاب می‌کنی؟</label>
             <select>
-                <option>شخصیت خفن و مرموز</option>
-                <option>پیرمرد دانا</option>
-                <option>بچه پررو و بازیگوش</option>
-                <option>کفشدوزک شماره ۳ در صحنه‌ی ۵</option>
+                <option>شخصیت خفن و شخمی</option>
+                <option>سگ پیر دانا ازینا که نصیحت میکنه زیاد</option>
+                <option>بچه پررو و دسته تبر بازیگوش</option>
+                <option>کفشدوزکی که واقعا کفاش بود</option>
             </select>
 
-            <button type="button" onclick="showResult()">ارسال</button>
+            <button type="button" onclick="showResult()"> ارسال</button>
         </form>
 
-        <div id="result"></div>
+        <div id="result" class="hidden"></div>
 
-        <button id="retry" style="display: none;" onclick="showResult()">🤡 دوباره تست بده</button>
+        <button id="retry" class="hidden" onclick="showResult()">🔄 دوباره تست بده</button>
     </div>
 
     <script src="script.js"></script>

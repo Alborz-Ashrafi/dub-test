@@ -8,12 +8,13 @@ function showResult() {
         " تو صدای جذابی داری، ولی فقط وقتی که ساکتی!"
     ];
 
-    let randomIndex = Math.floor(Math.random() * results.length);
+ let randomIndex = Math.floor(Math.random() * results.length);
     let resultDiv = document.getElementById("result");
+    let submitButton = document.querySelector("button");
 
     resultDiv.innerText = results[randomIndex];
     resultDiv.style.opacity = "1";
     resultDiv.classList.remove("hidden");
 
-    document.getElementById("retry").classList.remove("hidden");
+    submitButton.disabled = true; // غیر فعال کردن دکمه بعد از کلیک
 }

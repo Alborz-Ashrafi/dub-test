@@ -98,8 +98,13 @@ button:disabled {
 }
 
 #footer {
-    margin-top: 40px;
+    text-align: center;
     font-size: 14px;
-    color: #333;
     font-weight: bold;
+    margin-top: 40px; /* فاصله از بالا */
+    padding: 20px 0; /* فضای داخلی */
+    color: #fff;
+    background: #2f3542; /* پس‌زمینه‌ی تیره‌تر برای دیده شدن */
+    width: 100%;
+    position: relative;
 }
